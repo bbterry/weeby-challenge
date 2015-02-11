@@ -1,0 +1,13 @@
+{
+  "name": "weeby-challenge-starter",
+  "version": "0.0.1",
+  "description": "Starter server for the Weeby Challenge.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.10.0"
+  },
+  "author": {
+    "name": "Weeby",
+    "email": "FIXME"
+  }
+}
