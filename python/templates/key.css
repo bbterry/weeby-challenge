@@ -1,0 +1,65 @@
+#styles {
+	display: none;
+}
+
+#key {
+	text-indent: -9999px;
+	white-space: nowrap;
+	position: absolute;
+	top: 41px;
+}
+
+#handle {
+	 position: absolute;
+	 left: -10px;
+	 margin-top: -11px;			 
+	 width: 16px;
+	 height: 16px; 
+	 border-radius: 50%;
+	 border: 8px solid yellow;			
+}
+
+#stem {
+	position: absolute;
+	left: 20px;
+	width: 70px !important;
+	height: 10px;
+	border-bottom-right-radius: 5px 5px;
+	border-top-right-radius: 5px 5px;
+}
+
+#wards{
+	position: absolute;
+	left: 58px;
+	top: -3px;
+	width:27px;
+	height:7px;
+	background: purple;
+}
+
+.ward:nth-of-type(1){
+	position: absolute;
+	left: -10px;
+	top: -4px;
+	width:7px;
+	height:4px;
+	background: black;
+}
+
+.ward:nth-of-type(2){
+	position: absolute;
+	left: -1px;
+	top: -9px;
+	width: 7px;
+	height: 9px;
+	background: red;
+}
+
+.ward:nth-of-type(3){
+	position: absolute;
+	left: 8px;
+	top: -4px;
+	width: 7px;
+	height: 4px;
+	background: green;
+}
